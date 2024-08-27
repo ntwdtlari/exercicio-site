@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>ExploraViagens</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+            header {
+                background-color: #008080;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            nav {
+                background-color: #333;
+                padding: 10px;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            section {
+                padding: 20px;
+                margin: 20px;
+            }
+            h2 {
+                color: #008080;
+            }
+            .destinos, .servicos {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            .destino, .servico {
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 15px;
+                width: 30%;
+                margin: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>Bem-vindo à ExploraViagens</h1>
+        <p>Seu portal para as melhores aventuras e experiências ao redor do mundo!</p>
+    </header>
+    <nav>
+        <a href="#destinos">Destinos Populares</a>
+        <a href="#servicos">Nossos Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="destinos">
+        <h2>Destinos Populares</h2>
+        <div class="destinos">
+            <div class="destino">
+                <h3>Paris, França</h3>
+                <p>A Cidade das Luzes é um dos destinos mais românticos do mundo. Conheça a Torre Eiffel, o Louvre, e muito mais.</p>
+            </div>
+            <div class="destino">
+                <h3>Kyoto, Japão</h3>
+                <p>Descubra a beleza dos templos antigos, jardins zen e o charme das tradicionais casas de chá.</p>
+            </div>
+            <div class="destino">
+                <h3>Rio de Janeiro, Brasil</h3>
+                <p>Explore as maravilhas do Pão de Açúcar, Cristo Redentor, e as praias icônicas de Copacabana e Ipanema.</p>
+            </div>
+        </div>
+    </section>
